@@ -3,6 +3,8 @@
 This repository contains a simple game developed using Unreal Engine 5, based on the course [Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games](https://www.udemy.com/course/unrealcourse/).
 The goal of the game is to navigate through a series of obstacles such as rising and falling platforms, pushing cubes, and rotating platforms to reach the treasure located within the castle.
 
+![ObstacleAssaultPhoto](https://github.com/user-attachments/assets/a578244d-2574-40b1-9eb9-371de12cd824)
+
 ### Controls
 - **W, A, S, D:** Move
 - **Spacebar:** Jump
@@ -76,3 +78,6 @@ In addition to the unit test cases implemented in Unreal Engine, I have also dev
 - **Rotating Platforms:** These platforms rotate around an axis, and the test ensures that the player interacts correctly with these rotating surfaces.
 
 - **Pushing Cubes:** These cubes push the player when in contact. The test verifies that the player is correctly affected by the pushing cube and that the interaction behaves as expected.
+
+https://github.com/user-attachments/assets/f7494528-9653-484d-9959-b5dd8e9592f9
+
