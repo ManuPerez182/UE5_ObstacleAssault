@@ -65,7 +65,7 @@ Simulate enough movement time to reach the MoveDistance and check if the platfor
 - **Description:** Create an instance of the AMovingPlatform class with a specified RotationVelocity. 
 Simulate rotation over time and verify that the platform's rotation updates correctly according to the RotationVelocity.
 
-##Functional Test 
+## Functional Test 
 
 A functional test is a type of automated test designed to verify that specific game features or mechanics work as intended from the player’s perspective. Unlike unit tests, which focus on individual components or pieces of code, functional tests evaluate the behavior of the game as a whole, ensuring that various elements interact correctly and meet design specifications.
 
