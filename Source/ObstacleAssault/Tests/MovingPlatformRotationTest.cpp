@@ -46,6 +46,7 @@ bool FMovingPlatformRotationTest::RunTest(const FString& Parameters)
         return false;
     }
 
+    Platform -> Destroy();
 
     return true;
 }

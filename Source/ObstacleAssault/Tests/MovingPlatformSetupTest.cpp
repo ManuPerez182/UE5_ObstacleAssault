@@ -42,6 +42,8 @@ bool FMovingPlatformInitialSetupTest::RunTest(const FString& Parameters)
         return false;
     }
 
+    Platform -> Destroy();
+
     return true;
 }
 
@@ -78,6 +80,8 @@ bool FMovingPlatformInitialPositionTest::RunTest(const FString& Parameters)
         AddError(TEXT("Platform has moved from its initial position unexpectedly"));
         return false;
     }
+
+    Platform -> Destroy();
 
     return true;
 }
