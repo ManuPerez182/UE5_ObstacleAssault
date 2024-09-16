@@ -12,6 +12,17 @@ The goal of the game is to navigate through a series of obstacles such as rising
 
 By using this game, I aim to create and implement automated test cases to better understand and develop testing strategies within Unreal Engine 5.
 
+# Table of Contents
+
+1. [Moving Platform](#moving-platform)
+2. [Testing Frameworks in Unreal Engine](#testing-frameworks-in-unreal-engine)
+3. [Functional Tests Framework](#functional-tests-framework)
+   - [Unit Tests](#unit-tests)
+   - [Functional Tests](#functional-tests)
+4. [Gauntlet Automation Framework](#gauntlet-automation-framework)
+   - [Unreal Automation Tool](#unreal-automation-tool)
+   - [Gauntlet](#gauntlet)
+
 ## Moving Platform
 
 The `AMovingPlatform` class represents a moving platform in Unreal Engine 5. It extends from the `AActor` class and provides functionality for both movement and rotation.
@@ -54,7 +65,7 @@ Gauntlet is more suited for end-to-end gameplay testing, particularly when evalu
 
 # Functional Tests Framework
 
-## [Unit Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/UnitTests)
+## [Unit Tests](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/UnitTests)
 
 A unit test is a type of automated test that focuses on verifying the functionality of a small, isolated piece of code typically a single function or method within a larger software system.
 In Unreal Engine, unit tests are used to ensure that individual components, such as classes or functions, behave as expected under various conditions. These tests are written and executed in isolation from other parts of the system to confirm that they produce the correct results and handle edge cases appropriately.
@@ -96,7 +107,7 @@ Simulate enough movement time to reach the MoveDistance and check if the platfor
 - **Description:** Create an instance of the AMovingPlatform class with a specified RotationVelocity.
 Simulate rotation over time and verify that the platform's rotation updates correctly according to the RotationVelocity.
 
-## [Functional Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/FunctionalTests)
+## [Functional Tests](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/FunctionalTests)
 
 A functional test is a type of automated test designed to verify that specific game features or mechanics work as intended from the player’s perspective. Unlike unit tests, which focus on individual components or pieces of code, functional tests evaluate the behavior of the game as a whole, ensuring that various elements interact correctly and meet design specifications.
 
