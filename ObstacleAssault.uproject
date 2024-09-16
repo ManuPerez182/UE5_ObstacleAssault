@@ -9,7 +9,9 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"FunctionalTesting",
+				"Gauntlet"
 			]
 		}
 	],
@@ -22,6 +24,10 @@
 				"Mac",
 				"Linux"
 			]
+		},
+		{
+			"Name": "Gauntlet",
+			"Enabled": true
 		}
 	]
 }
