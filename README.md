@@ -45,14 +45,14 @@ The class is designed to handle basic platform movement and rotation logic, prov
 
 Unreal Engine offers two primary testing frameworks: **Functional Tests** and **Gauntlet**. Here's a summary of their key features and differences:
 
-### Functional Tests
+### Functional Test
 
 - **Usage:** Ideal for small unit tests and larger integration tests.
 - **Execution:** Can be run both in the Unreal Editor and from the command line.
 - **Limitations:** Primarily designed for use within the editor and does not support performance testing or full builds.
 - **Platform Support:** Limited to the development environment and may not cover all target platforms.
 
-### Gauntlet Tests
+### Gauntlet Test
 
 - **Usage:** Designed for comprehensive gameplay testing and performance evaluation.
 - **Execution:** Requires a full build and runs outside the Unreal Editor.
