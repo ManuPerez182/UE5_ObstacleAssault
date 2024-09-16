@@ -52,7 +52,7 @@ Unreal Engine offers two primary testing frameworks: **Functional Tests** and **
 - **Limitations:** Primarily designed for use within the editor and does not support performance testing or full builds.
 - **Platform Support:** Limited to the development environment and may not cover all target platforms.
 
-### Gauntlet
+### Gauntlet Tests
 
 - **Usage:** Designed for comprehensive gameplay testing and performance evaluation.
 - **Execution:** Requires a full build and runs outside the Unreal Editor.
