@@ -54,7 +54,7 @@ Gauntlet is more suited for end-to-end gameplay testing, particularly when evalu
 
 # Functional Tests Framework
 
-## [Unit Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests)
+## [Unit Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/UnitTests)
 
 A unit test is a type of automated test that focuses on verifying the functionality of a small, isolated piece of code typically a single function or method within a larger software system.
 In Unreal Engine, unit tests are used to ensure that individual components, such as classes or functions, behave as expected under various conditions. These tests are written and executed in isolation from other parts of the system to confirm that they produce the correct results and handle edge cases appropriately.
@@ -96,7 +96,7 @@ Simulate enough movement time to reach the MoveDistance and check if the platfor
 - **Description:** Create an instance of the AMovingPlatform class with a specified RotationVelocity.
 Simulate rotation over time and verify that the platform's rotation updates correctly according to the RotationVelocity.
 
-## Functional Test
+## [Functional Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/FunctionalTests)
 
 A functional test is a type of automated test designed to verify that specific game features or mechanics work as intended from the player’s perspective. Unlike unit tests, which focus on individual components or pieces of code, functional tests evaluate the behavior of the game as a whole, ensuring that various elements interact correctly and meet design specifications.
 
@@ -184,7 +184,7 @@ The test is implemented as a C# class derived from DefaultTest. To create tests,
 
 The GauntletController is a class derived from UGauntletTestController, designed to manage the test execution while the game is running. It supports periodic updates through the Tick function and allows for test completion with the EndTest method.
 
-### Gauntlet Test
+### [Gauntlet Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/GauntletTest)
 
 **Test Case:** Verify Player Movement
 
