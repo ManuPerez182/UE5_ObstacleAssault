@@ -12,6 +12,17 @@ The goal of the game is to navigate through a series of obstacles such as rising
 
 By using this game, I aim to create and implement automated test cases to better understand and develop testing strategies within Unreal Engine 5.
 
+# Table of Contents
+
+1. [Moving Platform](#moving-platform)
+2. [Testing Frameworks in Unreal Engine](#testing-frameworks-in-unreal-engine)
+3. [Functional Tests Framework](#functional-tests-framework)
+   - [Unit Tests](#unit-tests)
+   - [Functional Tests](#functional-tests)
+4. [Gauntlet Automation Framework](#gauntlet-automation-framework)
+   - [Unreal Automation Tool](#unreal-automation-tool)
+   - [Gauntlet](#gauntlet)
+
 ## Moving Platform
 
 The `AMovingPlatform` class represents a moving platform in Unreal Engine 5. It extends from the `AActor` class and provides functionality for both movement and rotation.
@@ -34,14 +45,14 @@ The class is designed to handle basic platform movement and rotation logic, prov
 
 Unreal Engine offers two primary testing frameworks: **Functional Tests** and **Gauntlet**. Here's a summary of their key features and differences:
 
-### Functional Tests
+### Functional Test
 
 - **Usage:** Ideal for small unit tests and larger integration tests.
 - **Execution:** Can be run both in the Unreal Editor and from the command line.
 - **Limitations:** Primarily designed for use within the editor and does not support performance testing or full builds.
 - **Platform Support:** Limited to the development environment and may not cover all target platforms.
 
-### Gauntlet
+### Gauntlet Test
 
 - **Usage:** Designed for comprehensive gameplay testing and performance evaluation.
 - **Execution:** Requires a full build and runs outside the Unreal Editor.
@@ -54,7 +65,7 @@ Gauntlet is more suited for end-to-end gameplay testing, particularly when evalu
 
 # Functional Tests Framework
 
-## [Unit Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests)
+## [Unit Tests](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/UnitTests)
 
 A unit test is a type of automated test that focuses on verifying the functionality of a small, isolated piece of code typically a single function or method within a larger software system.
 In Unreal Engine, unit tests are used to ensure that individual components, such as classes or functions, behave as expected under various conditions. These tests are written and executed in isolation from other parts of the system to confirm that they produce the correct results and handle edge cases appropriately.
@@ -96,7 +107,7 @@ Simulate enough movement time to reach the MoveDistance and check if the platfor
 - **Description:** Create an instance of the AMovingPlatform class with a specified RotationVelocity.
 Simulate rotation over time and verify that the platform's rotation updates correctly according to the RotationVelocity.
 
-## Functional Test
+## [Functional Tests](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/FunctionalTests)
 
 A functional test is a type of automated test designed to verify that specific game features or mechanics work as intended from the player’s perspective. Unlike unit tests, which focus on individual components or pieces of code, functional tests evaluate the behavior of the game as a whole, ensuring that various elements interact correctly and meet design specifications.
 
@@ -184,7 +195,7 @@ The test is implemented as a C# class derived from DefaultTest. To create tests,
 
 The GauntletController is a class derived from UGauntletTestController, designed to manage the test execution while the game is running. It supports periodic updates through the Tick function and allows for test completion with the EndTest method.
 
-### Gauntlet Test
+### [Gauntlet Test](https://github.com/ManuPerez182/UE5_ObstacleAssault/tree/main/Source/ObstacleAssault/Tests/GauntletTest)
 
 **Test Case:** Verify Player Movement
 
@@ -192,3 +203,5 @@ The GauntletController is a class derived from UGauntletTestController, designed
 - **Description:** Create an instance of the APlayerMovementFunctionalTest class with a specified MovementDistance and DistanceThreshold. Simulate the player's movement over time and verify that the player travels the expected distance.
 
 https://github.com/user-attachments/assets/282ab645-8924-432a-97f2-a0727e290d58
+
+**[⬆ Back to Top](#table-of-contents)**
