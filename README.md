@@ -189,7 +189,7 @@ RunUAT RunUnreal -project=<ProjectPath> -platform=<Platform> -configuration=<Con
 
 ### Test Definition
 
-The test is implemented as a C# class derived from DefaultTest. To create tests, a source build of the engine is required, and tests should be developed within a Class Library (.NET Framework). The project name should end with .Automation. The test code must utilize the GetConfiguration function to return the UnrealTestConfiguration. An essential parameter in the test definition is the name of the GauntletController to be used.
+The test is implemented as a C# class. To create tests, a source build of the engine is required, and tests should be developed within a Class Library (.NET Framework). The project name should end with .Automation. The test code must utilize the GetConfiguration function to return the UnrealTestConfiguration. An essential parameter in the test definition is the name of the GauntletController to be used.
 
 ### GauntletController
 
